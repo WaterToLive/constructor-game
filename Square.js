@@ -4,13 +4,13 @@ class FallingSquare {
     this.x = x;
     this.y = y;
     this.size = size;
-    this.speed = random(1, 25); 
+   // this.speed = random(1, 25); 
     this.c = c;
   }
 
-  fall() {
-    this.y += this.speed;
-  }
+  //fall() {
+    //this.y += this.speed;
+  //}
 
   show() {
     fill(this.c)
