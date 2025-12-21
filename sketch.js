@@ -1,6 +1,11 @@
+let cube;
 function setup () {
   createCanvas(windowWidth,windowHeight);
-  background("LightYellow")
+} 
+
+function draw() {
+      background("LightYellow")
+      cube.show();
 }
 
 

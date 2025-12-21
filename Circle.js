@@ -1,8 +1,8 @@
 class FallingCircle {
-  constructor(x, y, r) {
+  constructor(x, y, d) {
     this.x = x;
     this.y = y;
-    this.r = r;
+    this.r = d;
     this.speed = random(1, 25); 
   }
 
@@ -10,7 +10,7 @@ class FallingCircle {
     this.y += this.speed;
   }
 
-  show() {
-    circle(this.x, this.y, this.r * 2);
+  display() {
+    circle(this.x, this.y, this.d);
   }
 }
