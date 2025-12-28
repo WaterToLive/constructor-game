@@ -3,12 +3,12 @@ class FallingCircle {
     this.x = x;
     this.y = y;
     this.r = d;
-    this.speed = random(1, 25); 
+    //this.speed = random(1, 25); 
   }
 
-  fall() {
-    this.y += this.speed;
-  }
+  //fall() {
+    //this.y += this.speed;
+  //}
 
   display() {
     circle(this.x, this.y, this.d);
