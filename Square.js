@@ -4,7 +4,7 @@ class FallingSquare {
     this.x = x;
     this.y = y;
     this.size = size;
-   this.speed = random(1, 25); 
+    this.speed = random(1, 5); 
     this.c = c;
   }
 
