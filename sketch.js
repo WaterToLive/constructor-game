@@ -18,4 +18,12 @@ function draw() {
       die[3].show();
 }
 
+function mouseMoved () {
+  player.x = mouseX;
+  player.y = mouseY;
+}
 
+function mouseDragged () {
+  player.x = mouseX; 
+  player.y = mouseY;
+}

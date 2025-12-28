@@ -1,6 +1,6 @@
 
 class FallingSquare {
-  constructor(x, y, size) {
+  constructor(x, y, size,c) {
     this.x = x;
     this.y = y;
     this.size = size;
