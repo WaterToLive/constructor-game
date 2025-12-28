@@ -1,10 +1,8 @@
-let cube;
 let die= [];
 function setup () {
   createCanvas(windowWidth,windowHeight); 
-  cube = new FallingSquare (30, 25,50); 
   for(let i =0; i < 12; i++) {
-    die.push(new FallingSquare(random(width), random(height), random(5,15),"blue"));
+    die.push(new FallingSquare(random(width), random(height), random(5,15), "blue"));
   }
 } 
 
@@ -18,12 +16,3 @@ function draw() {
       die[3].show();
 }
 
-function mouseMoved () {
-  player.x = mouseX;
-  player.y = mouseY;
-}
-
-function mouseDragged () {
-  player.x = mouseX; 
-  player.y = mouseY;
-}

@@ -9,7 +9,7 @@ class FallingSquare {
   }
 
   //fall() {
-    //this.y += this.speed;
+    //this.y ++;
   //}
 
   show() {
