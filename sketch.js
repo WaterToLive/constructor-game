@@ -8,7 +8,7 @@ function setup () {
 
 function draw() {
       background("red")
-      cube.show(); 
+      die.show(); 
 
       die[0].show(); 
       die[1].show();
