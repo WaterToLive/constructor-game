@@ -7,11 +7,14 @@ class FallingSquare {
     this.speed = random(1, 5); 
     this.c = c;
   }
-
   fall() {
     this.y += this.speed;
   }
-
+   update() {
+    if (this.y > windowHeight) {
+      this.y = -this.size;
+    }
+  }
   show() {
     fill(this.c)
     square(this.x, this.y, this.size);
