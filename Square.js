@@ -11,7 +11,7 @@ class FallingSquare {
     this.y += this.speed;
   }
    update() {
-    if (this.y > windowHeight) {
+    if (this.y > Height) {
       this.y = -this.size;
     }
   }
