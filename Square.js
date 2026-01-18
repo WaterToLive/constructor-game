@@ -19,4 +19,11 @@ class FallingSquare {
     fill(this.c)
     square(this.x, this.y, this.size);
   } 
+
+move() {
+  this.y += this.size;
+  if(this.y > height){
+    this.y = 0;
+  }
+} 
 }
