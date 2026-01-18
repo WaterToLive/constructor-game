@@ -10,11 +10,7 @@ class FallingSquare {
   fall() {
     this.y += this.speed;
   }
-   update() {
-    if (this.y > Height) {
-      this.y = -this.size;
-    }
-  }
+ 
   show() {
     fill(this.c)
     square(this.x, this.y, this.size);
