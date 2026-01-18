@@ -3,18 +3,17 @@ function setup () {
   createCanvas(windowWidth,windowHeight); 
   for(let i =0; i < 12; i++) {
     die.push(new FallingSquare(random(width), 0 , random(50,75), "blue"));
+    die.push(new FallingCircle(random(width), 0 , random(50,75), "yellow"));
   }
 } 
 
 function draw() {
       background("red")
       //die.show(); 
-  for(i=0; i < 4; i++) {
+  for(i=0; i < die.length; i++) {
       die[i].show(); 
-  }
-      die[0].fall();
-      die[1].fall();
-      die[2].fall();
-      die[3].fall();
+      die[i].fall();  
+    }
+    
 }
 

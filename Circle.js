@@ -1,16 +1,22 @@
 class FallingCircle {
-  constructor(x, y, d) {
+  constructor(x, y, size,c,) {
     this.x = x;
     this.y = y;
-    this.r = d;
-    //this.speed = random(1, 25); 
+    this.d = size;
+    this.speed = random(2, 5); 
+    this.c = c;
   }
 
-  //fall() {
-    //this.y += this.speed;
-  //}
+  fall() {
+    this.y += this.speed;
+    if(this.y > height){
+    this.y = 0;
+    this.x = random(0, width)
+  }
+  }
 
-  display() {
+  show() {
+    fill(this.c)
     circle(this.x, this.y, this.d);
   }
 }

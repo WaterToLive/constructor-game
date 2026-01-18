@@ -10,3 +10,10 @@
 # The more points you get the faster the shapes come down. 
 - IF/WHEN a shape hits the bottom of the canvas Promt "GAME OVER" 
 # Restart the game.
+
+
+
+# To do list 
+- Get my triangle to show too 
+- Make sure they all reset properly
+- Make my shapes tapable 

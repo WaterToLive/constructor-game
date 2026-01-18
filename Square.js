@@ -4,22 +4,20 @@ class FallingSquare {
     this.x = x;
     this.y = y;
     this.size = size;
-    this.speed = random(1, 5); 
+    this.speed = random(7, 9); 
     this.c = c;
   }
   fall() {
     this.y += this.speed;
+    if(this.y > height){
+    this.y = 0;
+    this.x = random(0, width)
   }
- 
+}
   show() {
     fill(this.c)
     square(this.x, this.y, this.size);
   } 
 
-move() {
-  this.y += this.size;
-  if(this.y > height){
-    this.y = 0;
-  }
+  
 } 
-}
