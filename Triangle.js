@@ -7,9 +7,9 @@ class FallingTriangle {
     this.c = c; 
   }
 
-  //fall() {
-    //this.y += this.speed;
-  //}
+  fall() {
+    this.y += this.speed;
+  }
 
   show() {
     triangle(
