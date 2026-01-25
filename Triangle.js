@@ -1,9 +1,10 @@
 class FallingTriangle {
-  constructor(x, y, size) {
+  constructor(x, y, size,c) {
     this.x = x;
     this.y = y;
     this.size = size;
-   // this.speed = random(1, 25);
+    this.speed = random(1, 25);
+    this.c = c; 
   }
 
   //fall() {
