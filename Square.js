@@ -1,11 +1,12 @@
 
 class FallingSquare {
-  constructor(x, y, size,c) {
+  constructor(x, y, size,c,) {
     this.x = x;
     this.y = y;
     this.size = size;
-    this.speed = random(7, 9); 
+    this.speed = random(7, 9);  
     this.c = c;
+    
   }
   fall() {
     this.y += this.speed;
