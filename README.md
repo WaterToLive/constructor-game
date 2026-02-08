@@ -16,4 +16,7 @@
 # To do list 
 - Get my triangle to show too 
 - Make sure they all reset properly
-- Make my shapes tapable 
+- Make my shapes tapable  
+
+-need to be able to click them squares
+-When square touches bottom it comes back to the top
