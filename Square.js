@@ -13,6 +13,7 @@ class FallingSquare {
     if(this.y > height){
     this.y = 0;
     this.x = random(0, width)
+    noLoop();
   }
 }
   show() {
