@@ -12,6 +12,7 @@ class FallingTriangle {
   }
 
   show() {
+    fill(this.c)  
     triangle(
       this.x, this.y,
       this.x - this.size / 2, this.y + this.size,
