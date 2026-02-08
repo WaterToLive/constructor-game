@@ -11,8 +11,8 @@ class FallingSquare {
   fall() {
     this.y += this.speed;
     if(this.y > height){
-    this.y = 0;
-    this.x = random(0, width)
+   // this.y = 0;
+  //  this.x = random(0, width)
     noLoop();
   }
 }
