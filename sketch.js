@@ -15,6 +15,12 @@ function draw() {
       die[i].show(); 
       die[i].fall();  
     }
-    
+  }
+function mousePressed() {
+  for(let i = 0 ; i < die.length);
+  let d = dist(mouseX, mouseY, circleX, circleY);
+  if (d < circleSize/2) {
+    console.log("Circle Tapped!");
+  }    
 }
 
