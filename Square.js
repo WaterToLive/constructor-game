@@ -20,6 +20,6 @@ class FallingSquare {
     fill(this.c)
     square(this.x, this.y, this.size);
   } 
-
+ 
   
 } 

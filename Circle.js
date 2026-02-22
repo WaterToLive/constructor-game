@@ -17,6 +17,6 @@ class FallingCircle {
 
   show() {
     fill(this.c)
-    circle(this.x, this.y, this.d);
+   circle(this.x, this.y, this.d);
   }
 }
